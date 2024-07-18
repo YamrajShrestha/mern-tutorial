@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 // load book model
-const Book = require("../../models/Books");
+const Book = require("../../models/Book");
 
 // test books route
 router.get("/test", (req, res) => {
